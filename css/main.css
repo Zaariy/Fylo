@@ -1,0 +1,441 @@
+/* font-family: 'Raleway', sans-serif; */
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box
+    
+}
+/* container  */
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    
+
+}
+/* Frimwork */
+.edit-h1 {
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    /* width: 482px; */
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: 'Raleway', sans-serif;
+}
+/* Global colors */
+:root {
+    --colorHeaders : hsl(243, 87%, 12%) ;
+}
+
+/* Start header */
+
+.size-img {
+    width: 90px;
+}
+.head-title .container {
+    padding-top: 10px;
+}
+.head-title header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+.head-title nav a {
+    margin-left: 15px; 
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: hsl(238, 22%, 44%);
+
+}
+/*        End          */
+/*          Start Chick      */
+.chick {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.chick .chick-content h1 {
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    width: 482px;
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: 'Raleway', sans-serif;
+
+}
+.chick .chick-content .text {
+    width: 500px;
+}
+.chick .chick-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+
+}
+.chick .chick-content .text p {
+    color: var(--colorHeaders);
+    font-family: "Raleway" , "sans-serif";
+    
+}
+/* Edit img */
+.chick .images {
+    width: 450px;
+}
+.chick .images img {
+    width: 100%;
+}
+/* End Edit img */
+/* Start input */
+.chick .chick-content input[type=email] {
+    border: 2px solid var(--colorHeaders);
+    outline: none;
+    height: 47px;
+    width: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+.chick .chick-content button {
+    width: 150px;
+    height: 47px;
+    background-color: hsl(224, 93%, 58%);
+    /* outline: none; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Raleway" , "sans-serif";
+    box-shadow: 3px 3px 3px #d7e5e6;
+}
+
+/*          End Chick      */
+/*         start Pro       */
+.pro .pro-content h1 {
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    /* width: 482px; */
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: 'Raleway', sans-serif;
+
+}
+/* edit images */
+.pro .images {
+    width: 450px;
+}
+.pro .images img {
+    width: 100%;
+}
+/* End images */
+.pro .pro-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-top: -5px;
+
+    
+
+}
+.pro .pro-content .text p {
+    color: var(--colorHeaders);
+    font-family: "Raleway" , "sans-serif";
+    
+}.pro .pro-content .text {
+    width: 500px;
+    
+}
+.pro {
+   background-color: #f9f8fe;
+
+}
+.back img {
+    width: 100%;
+    margin: -60px 0 0;
+}
+.pro .links {
+    position: relative;
+    margin-bottom: 15px;
+    width: 168px;
+}
+.pro .pro-content .links a {
+    text-decoration: none;
+    color: #91e4d2;
+}
+.pro .pro-content .links a::after{
+    content: url(../images/icon-arrow.svg);
+    /* width: 50px; */
+    /* height: 50px; */
+    position: absolute;
+    padding-left: 8px;
+}
+.pro .pro-content .links a::before {
+    content: '';
+    border-bottom: 2px solid #91e4d2;
+    height: 7px;
+    width: 166px;
+    position: absolute;
+    bottom: -6px;
+}
+
+/* strt comment */
+.pro .pro-content .comment {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    /* margin-top: 50px; */
+    margin: 50px 0 50px;
+    box-shadow: 2px 2px 8px #f0eff4;
+    display: flex;
+    justify-content: center;
+}
+.pro .comment-content img {
+    width: 50px;
+    border-radius: 50%;
+}
+.pro .comment-content {
+    display: flex;
+    align-items: center;
+}
+.pro .comment-content strong {
+    margin: 0 8px;
+}
+.pro .comment-content .uniq {
+    margin: 8px 9px 5px;
+    font-size: 10px;
+    
+}
+.pro .comment .com-content p {
+    line-height: 1.5;
+}
+
+/*             Start Early        */
+.early {
+    background-color: #575989;
+    height: 100%;
+}
+.early h1 {
+    color: white;
+
+}
+.early p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.early .early-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.early .early-content .text {
+    width: 500px;
+}
+.early .info-input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 47px;
+    border: 1px solid #b46791;
+}
+.early .info-input button {
+    height: 47px;
+    color: white;
+    background-color:hsl(224, 93%, 58%);
+    border: none;
+    margin: 20px 0; 
+    border-radius: 5px;
+}
+
+/*  Start Footer   */
+footer {
+    background-color: #07043b;
+    /* height: 250px; */
+    width: 100%;
+    position: relative;
+
+}
+footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 300px; */
+    justify-content: space-between;
+    padding: 50px 0;
+}
+footer .contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0 0; */
+    margin: -44px 0 0;
+}
+.edit-img {
+    width: 113px;
+    padding: 15px 0;
+}
+footer .contact .one  {
+    padding: 10px 0;
+    
+}
+/*                Edit icons   */
+/* footer .footer-content .icons i {
+    font-size: 20px; 
+    color: white;
+} */
+footer .footer-content .icons i {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border : 2px solid white;
+    border-radius: 50%;
+    margin-left: 5px;
+
+}
+/*                End Edit icons   */
+/* Edit span  */
+footer .footer-content span  img{
+    padding-right: 10px;
+}
+/*  End Edit span  */
+/*              Edit subs           */
+footer .sub-one  a , .sub-tow a  {
+    text-decoration: none ; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 ;
+
+}
+footer .sub-one   , .sub-tow  , .icons {
+    margin-top: 50px;
+} 
+/* End Footer */
+/* Hover */
+.hover-butt:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+footer .footer-content a:hover {
+    color: #707bbd;
+}
+/* Very Small */
+@media (max-width: 767px) {
+    .container {
+        width: calc(100% - 40px);
+    }  
+    /* chick */
+    .chick .chick-content h1 {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+        
+
+    }
+    .chick .chick-content .text {
+        width: 100%;
+    }
+    .chick .chick-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width:100%;
+    }
+    .chick .chick-content .text p {
+        text-align: center;
+    }
+    .chick .chick-content button {
+        width: 100%;
+        padding: 0;
+        margin: 20px 0;
+    }
+    .chick .chick-content input[type=email] {
+        width: 100% ;
+        padding: 0;
+    }
+    .chick .images {
+        width: 100%
+    }
+    .pro .pro-content h1 {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .pro .links {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .pro .pro-content .text p {
+        line-height: 1.4;
+    }
+    .pro .pro-content .links a::before {
+        width: 168px;
+    }
+    /* footer */
+    footer .footer-content {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    footer .sub-one , .sub-tow {
+        margin: 10px 0;
+    }
+    footer .sub-one {
+        padding: 10px 0 0 0 ;
+    }
+    /* footer Icons */
+    footer .footer-content .icons {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* img */
+    .edit-img {
+        width: 200px;
+        /* padding: 15px 0; */
+        margin: -30px 0 0;
+    }
+    footer .contact {
+        /* color: white;
+        display: flex;
+        flex-direction: column; */
+        /* padding: 20px 0 0; */
+        margin: 0 0 0;
+    }
+    footer .sub-one   , .sub-tow  , .icons {
+        margin-top: 0px;
+    } 
+  
+}
+
+/* Small Screen */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }   
+    
+    .chick .chick-content {
+        justify-content: center;
+    }
+}
+/* Meduim Screen  */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    
+    }   
+    .chick .chick-content {
+        justify-content: space-between;
+    } 
+}
+/* Hight Screen */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }    
+}
